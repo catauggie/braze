@@ -3,6 +3,7 @@
 This repository contains code and supporting material for the research articles:
 
 **Automated Induction Brazing Control System Based on Optimal Trajectory Planning** &
+
 **Dual-loop proportional control for high-precision inductionbrazing of thin-walled aluminum waveguides**
 
 ---
