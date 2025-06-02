@@ -1,8 +1,9 @@
 # Optimal Thermal Trajectory Planning for Induction Brazing
 
-This repository contains code and supporting material for the research article:
+This repository contains code and supporting material for the research articles:
 
-**Automated Induction Brazing Control System Based on Optimal Trajectory Planning**
+**Automated Induction Brazing Control System Based on Optimal Trajectory Planning** &
+**Dual-loop proportional control for high-precision inductionbrazing of thin-walled aluminum waveguides**
 
 ---
 
@@ -14,6 +15,7 @@ Three main objectives are considered:
 1. **Accuracy** — match the target temperature profile.
 2. **Symmetry** — minimize the difference between reference and symmetric source configurations.
 3. **Smoothness** — suppress high-frequency fluctuations via derivative control.
+4. https://disk.yandex.ru/d/1hE-ljyEwSSvXA - program module
 
 Multi-objective optimization is performed using the NSGA-II algorithm from [pymoo](https://pymoo.org). The results are visualized through Pareto fronts and thermal response curves.
 
